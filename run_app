@@ -1,0 +1,5 @@
+cd ./backend
+uvicorn main:app --reload &>./backend.log&
+cd ../frontend
+npm start
+
