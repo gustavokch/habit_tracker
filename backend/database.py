@@ -1,6 +1,6 @@
 import databases
 import sqlalchemy
-from .models import DATABASE_URL, Base
+from models import DATABASE_URL, Base
 
 # Create database instance
 database = databases.Database(DATABASE_URL)
